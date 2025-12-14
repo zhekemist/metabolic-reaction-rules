@@ -1,0 +1,9 @@
+{
+  "multi_components": {
+    "MNXM90823": "[*]C(=O)N[O-]",
+    "MNXM738412": "CCC(O)NOOC(CC)NOOC(CC)NO",
+    "MNXM726879": "CC(=O)NC(CCCN(O)C(=O)/C=C(\\C)CCO)C(=O)OCC/C(C)=C\\C(=O)N(O)CCCC1NC(=O)C(CCCN(O)C(=O)/C=C(\\C)CCO)NC1=O",
+    "MNXM727045": "O=C(NC(CO)C(=O)[O-])c1cccc(O)c1O",
+    "MNXM1101937": "CC(=O)N(O)CCCCC(NC(=O)CC(O)(CC(=O)NC(CCCCN(O)C(C)=O)C(=O)[O-])C(=O)[O-])C(=O)[O-]"
+  }
+}

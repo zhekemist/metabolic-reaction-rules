@@ -1,0 +1,36 @@
+rule [
+	ruleID "1.3.1.a R01251"
+	labelType "term"
+	left [
+		node [ id 3 label "H" ]
+		node [ id 9 label "NAD+" ]
+		edge [ source 2 target 3 label "-" ]
+		edge [ source 2 target 5 label "-" ]
+		edge [ source 5 target 7 label "-" ]
+	]
+	context [
+		node [ id 0 label "_A_0" ]
+		node [ id 1 label "C" ]
+		node [ id 2 label "C" ]
+		node [ id 4 label "_B_0" ]
+		node [ id 5 label "C" ]
+		node [ id 6 label "_C_0" ]
+		node [ id 7 label "H" ]
+		node [ id 8 label "_D_0" ]
+		node [ id 10 label "N" ]
+		node [ id 11 label "_G" ]
+		edge [ source 0 target 1 label "-" ]
+		edge [ source 1 target 2 label "-" ]
+		edge [ source 1 target 10 label "=" ]
+		edge [ source 2 target 4 label "-" ]
+		edge [ source 5 target 6 label "-" ]
+		edge [ source 5 target 8 label "-" ]
+		edge [ source 10 target 11 label "-" ]
+	]
+	right [
+		node [ id 3 label "H+" ]
+		node [ id 9 label "NAD" ]
+		edge [ source 2 target 5 label "=" ]
+		edge [ source 7 target 9 label "-" ]
+	]
+]
